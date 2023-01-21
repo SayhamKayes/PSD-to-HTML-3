@@ -1,0 +1,388 @@
+/*
+	Theme name: Ebimeet-panel;
+	Theme URI: Ebimeet-panel.com;
+	Author name: Sayhum Kayes;
+	Author URI: facebook.com/sayhumkayes;
+	Description: .... ;
+	Version: 2.0;
+*/
+/*
+	INDEX:
+	1.0 - Header Area
+	1.1 - Header Left Area
+	1.2 - Header Right Area
+	2.0 - Body Section Area
+	2.1 - Menu Area
+	2.2 - Main section Area
+	2.3 - Radio Button Area
+	2.4 - Box Area
+*/
+/*Typography*/
+body, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 700;
+}
+p {
+	margin: 0;
+	font-weight: 400;
+}
+a {
+	text-decoration: none;
+}
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, 
+.col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, 
+.col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, 
+.col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, 
+.col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, 
+.col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, 
+.col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, 
+.col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
+.col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/* 1.0 Header Area */
+header {
+	margin: 0;
+	padding: 0;
+}
+
+/* 1.1 Header Left Area */
+.left {
+	background: #22262e;
+	overflow: hidden;
+	height: 55px;
+}
+.left img {
+	padding: 5px 5px 5px 15px;
+}
+.left .home {
+	padding: 5px 10px;
+	background: #0d0f12;	
+}
+.left .fas {
+	color: #ffffff;
+	transition: 1s;
+}
+.left .envelope {
+	padding: 5px 10px;
+	background: #1b1e24;
+}
+.left .far {
+	color: #e5e9ec;
+	transition: 1s;
+}
+.left .fas:hover,
+.left .far:hover {
+	color: darkorange;
+}
+.left .envelope .badge {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background: #f2742b;
+  color: white;
+}
+
+/* 1.2 Header Right Area */
+.right {
+	height: 55px;
+	float: left;
+}
+.vl {
+  	border-left: 0.5px solid #595959;
+  	height: 17px;
+	opacity: 0.2;
+	position: absolute;
+	margin-left: 68px;
+	margin-top: 3px;
+}
+.right .r-left {
+	display: flex;
+}
+.r-left {
+	padding-left: 20px;
+	padding: 15.5px 15px;
+}
+.r-left a {
+	padding: 0 10px;
+}
+.r-left a i {
+	color: #4c5264;
+	transition: 1s;
+}
+.r-left a i:hover {
+	color: darkorange;
+}
+.r-right {
+	display: flex;
+	height: 55px;
+	padding-left: 23px;
+}
+.vl-2 {
+  	border-left: 1.5px solid #595959;
+  	height: 20px;
+	opacity: 0.5;
+	position: absolute;
+	top: 19px;
+}
+.r-right a {
+	text-decoration: none;
+}
+.r-right a h4 {
+	font-size: 15px;
+	color: #1b1e24;
+	font-weight: 200;
+	padding-top: 20px;
+	padding-left: 25px;
+}
+.r-right .img {
+	padding: 7px 15px 0 15px; 
+}
+.vl-3 {
+  	border-left: 1px solid #595959;
+  	height: 17px;
+	opacity: 0.3;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 225px;
+}
+.r-right .message {
+	padding-top: 16px;
+	padding-left: 15px;
+}
+.r-right .fa-cog {
+	padding-top: 22px;
+	color: #4c5264;
+	transition: 1s;
+}
+.r-right .fa-cog:hover {
+	color: darkorange;
+}
+.r-right .message .badge {
+  position: absolute;
+  top: 10px;
+  right: 26px;
+  padding: 3px 7px;
+  border-radius: 50%;
+  background: #f2742b;
+  color: white;
+}
+
+/* 2.0 Body Section Area */
+section {
+	margin: 0;
+	padding: 0;
+	height: 91vh;
+}
+.main-header {
+	background: #1b1e24;
+	padding: 30px 0 0 0;
+	height: 91vh;
+}
+.headlogo {
+	padding-left: 30px;
+}
+.top-header-text {
+	padding-left: 25px;
+}
+.top-header-text h1 {
+	font-size: 21px;
+	color: #ffffff;
+	padding-bottom: 7px;
+}
+.top-header-text h2 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 100;
+	padding-bottom: 7px;
+}
+
+/* 2.1 Menu Area */
+.menu {
+	padding-top: 50px;
+	width: 100%;
+	margin: 0;
+}
+.menu ul {
+	width: 100%;
+}
+.menu ul li {
+	padding: 7px 0 7px 25px;
+	cursor: pointer;
+	transition: 1s;
+}
+.menu ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.menu ul li:hover {
+	background: #22262e;
+}
+.active {
+	background: #22262e;
+}
+.logoff {
+	width: 100%;
+	margin-top: 26px;
+	padding: 10px 130px 12px 30px;
+	background: #22262e;
+}
+
+/* 2.2 Main section Area */
+.m-s-center {
+	background: #e5e9ec;
+}
+.bodypic img {
+	padding: 100px 0 0 175px;
+}
+.emoji {
+	height: 50px;
+	background: #d0d4d8;
+	margin-top: 10px;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+.emoji img {
+	padding-left: 10px;
+}
+.emoji textarea {
+	margin-top: 13px;
+	background: transparent;
+	width: 90%;
+	height: 80px;
+	border: 0px;
+}
+.messages {
+	display: flex;
+}
+.messages .message-submit {
+	margin-top: 40px;
+	margin-right: 25px;
+}
+.m-s-right {
+	background: #1b1e24;
+}
+
+/* 2.3 Radio Button Area */
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ffffff;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #ffffff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 5px;
+	left: 5px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #22262e;
+}
+label {
+	color: #ffffff;
+}
+.button {
+	padding-top: 50px;
+	padding-left: 15px;
+}
+/* 2.3 Radio Button Area */
+
+/* 2.4 Box Area */
+.box {
+	display: flex;
+	padding: 13px;
+	background: #372e2e;
+	width: 230px;
+	margin: 10px 15px;
+	border-radius: 5px;
+}
+.box h5 {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 15px;
+	color: #ffffff;
+}
+.box1 {
+	display: flex;
+	padding: 13px;
+	background: #2a2e36;
+	width: 230px;
+	margin: 10px 15px;
+	border-radius: 5px;
+}
+.box1 h5 {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 15px;
+	color: #ffffff;
+}

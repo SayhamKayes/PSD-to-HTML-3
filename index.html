@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Ebimeet-panel</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <script src="https://kit.fontawesome.com/6b68fd8881.js" crossorigin="anonymous"></script>
+  <!-- Font awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Font -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+	
+	<header> <!-- Header start-->
+    <div class="row">
+      <div class="col-sm-3 left"> <!-- Header Left start-->
+        <img src="img/logo.png">
+        <a class="home" href="#"><i class="fas fa-home"></i></a>
+        <a class="envelope" href="#"><i class="far fa-envelope"></i><span class="badge">2</span></a>
+      </div> <!-- Header Left end-->
+      <div class="col-sm-9 right"> <!-- Header Right start-->
+        <div class="row">
+          <div class="col-sm-3 r-left">
+            <a href="#"><i class="fas fa-bars"></i></a>
+            <a href="#"><i class="fas fa-redo-alt"></i></a>
+            <div class="vl"></div>
+            <a href="#"><i class="fas fa-th-large"></i></a>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+          <div class="col-sm-4"></div> <!-- Empty Header -->
+          <div class="col-sm-5 r-right">
+            <div class="vl-2"></div>
+            <a href="#"><h4>Ahmet Yalcin<i style="padding-left: 10px;" class="fas fa-angle-down"></i></h4></a>
+            <a class="img" href="#"><img width="40px" height="40px" src="img/signupimg.png"></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
+            <div class="vl-3"></div>
+            <a class="message" href="#"><img src="img/message.png"><span class="badge">2</span></a>
+          </div>
+        </div>
+      </div> <!-- Header Right end-->
+    </div>
+  </header> <!-- Header end-->
+	
+  <section> <!-- Body section start -->
+    <div class="row">
+      <div class="col-sm-3 main-header"> <!-- Main section header start -->
+        <div class="row">
+          <div class="col-sm-12 main-section-top"> <!-- Main section header top start -->
+            <div class="row">
+              <div class="col-sm-4 top-header">
+                <img class="headlogo" src="img/headlogo.png">
+              </div>
+              <div class="col-sm-8 top-header-text">
+                <h2>Hosgeldiniz !</h2>
+                <h1>Ahmet Yalcin</h1>
+                <h5 style="font-size: 14px;color: #ffffff;"><i style="font-size: 15px;color: darkorange;border: 2px solid darkorange;border-radius: 50%;" class="far fa-circle"></i>&nbsp;&nbsp;&nbsp;Online</h5>
+              </div>
+            </div>
+          </div> <!-- Main section header top end -->
+        </div>
+        <div class="row">
+          <div class="offset-sm-2 col-sm-12 menu"> <!-- Menu start -->
+            <ul>
+              <li><a href="#"><i class="fas fa-home"></i>&nbsp;&nbsp;Profil</a></li>
+              <li><a href="#"><i class="fas fa-user-friends"></i>&nbsp;&nbsp;Arkadas Listeniz</a></li>
+              <li class="active"><a href="#"><i class="fas fa-bookmark"></i>&nbsp;&nbsp;Shobet odalan</a></li>
+              <li><a href="#"><i class="fas fa-align-right"></i>&nbsp;&nbsp;Ayarlar</a></li>
+              <li><a href="#"><i class="fas fa-bookmark"></i>&nbsp;&nbsp;Kisi Listesini Gizle</a></li>
+              <li><a href="#"><i class="fas fa-th-large"></i>&nbsp;&nbsp;Akademi</a></li>
+              <li><a href="#"><i class="far fa-comments"></i>&nbsp;&nbsp;Yardim</a></li>
+              <li><a href="#"><i style="border: 2px solid #ffffff;border-radius: 50%;" class="far fa-circle"></i>&nbsp;&nbsp;Gelecek Toplantilar +</a></li>
+              <li><a href="#"><i style="border: 2px solid #ffffff;border-radius: 50%;" class="far fa-circle"></i>&nbsp;&nbsp;Toplanti Programla +</a></li>
+            </ul>
+          </div> <!-- Menu end -->
+          <a class="logoff" style="text-decoration: none;color: #ffffff;" href="#"><i class="fas fa-power-off"></i>&nbsp;&nbsp;Cikis Yap</a>  <!-- Log-off button -->
+        </div>        
+      </div> <!-- Main section header end -->
+      <div class="col-sm-6 m-s-center">  <!-- Main section  start -->
+        <div class="bodypic">
+          <img src="img/bodypic.png">
+        </div>
+        <div class="emoji">
+          <div class="emoji-attach">
+            <a href="#"><img src="img/emoji.png"></a>
+            <a href="#"><img src="img/attach.png"></a>
+          </div>
+          <div class="messages">
+            <textarea id="message"  name="message"  placeholder="messages..."></textarea>
+            <a class="message-submit" href="#"><img src="img/submit.png"></a>
+          </div>
+        </div>
+      </div>  <!-- Main section end -->
+      <div class="col-sm-3 m-s-right">  <!-- About section start -->
+        <div class="button">  <!-- Radio button start -->
+          <h1 style="font-size: 15px;color: #ffffff;padding-bottom: 10px;">"Halftalik Plan Toplantisi"</h1>
+          <label class="container">Butce Planlamasi
+            <input type="radio"  checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Musteri Taleplerinin Karsilanmasi
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Lorem ipsum
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Lorem ipsum
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
+        </div>  <!-- Radio button end -->
+        <div class="about">   <!-- Box start -->
+          <h1 style="font-size: 15px;color: #ffffff;padding-top: 20px;padding-left: 15px;">Katilimcilar</h1>
+          <div class="box">
+            <img src="img/boxpic.png">
+            <h5>Adem Yilmaz</h5>
+          </div>
+          <div class="box1">
+            <img src="img/boxpic.png">
+            <h5>Mehmet Yavuz</h5>
+          </div>
+          <div class="box">
+            <img src="img/boxpic.png">
+            <h5>Lorem ipsum</h5>
+          </div>
+          <div class="box1">
+            <img src="img/boxpic.png">
+            <h5>Lorem ipsum</h5>
+          </div>
+        </div>   <!-- Box end -->
+      </div>  <!-- About section end -->
+    </div>
+  </section> <!-- Body section end -->
+
+	<script type="text/javascript" src="modernizr-3.7.1.min.js"></script>  
+</body>
+</html>  
